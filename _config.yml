@@ -1,0 +1,4 @@
+timezone: Europe/Moscow
+future: false
+pygments: true
+permalink: :year-:month-:day-:title.html
