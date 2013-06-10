@@ -37,7 +37,6 @@ title: Publications
 * Defeating x64: Modern Trends of Kernel-Mode Rootkits, Ekoparty [slides](http://go.eset.com/us/resources/white-papers/Ekoparty2011_preso.pdf)
 * Cybercrime in Russia: Trends and issues, CARO [slides](http://go.eset.com/us/resources/white-papers/CARO_2011.pdf)
 * Defeating x64: The Evolution of the TDL Rootkit, CONFidence [slides](http://go.eset.com/us/resources/white-papers/TDL4-CONFidence-2011.pdf)
-* Проведение криминалистической экспертизы и анализа TDL4, PHDays [slides](http://www.slideshare.net/matrosov/tdl4)
 
 ### Research reports:
 * Win32/Carberp: When You're in a Black Hole, Stop Digging [pdf](http://go.eset.com/us/resources/white-papers/carberp.pdf)
@@ -53,7 +52,6 @@ title: Publications
 
 ### Conferences:
 * 2010: The year of the Exploit, CONFidence [slides](http://data.proidea.org.pl/confidence/8edycja/materialy/prezentacje/JurajMalcho.pdf)
-* Исследование вредоносных программ с точки зрения расследования инцидентов, RusCrypto [slides](http://www.ruscrypto.ru/netcat_files/File/ruscrypto.2010.051.zip)
 
 ### Research reports:
 * Stuxnet Under the Microscope [pdf](http://go.eset.com/us/resources/white-papers/Stuxnet_Under_the_Microscope.pdf)
