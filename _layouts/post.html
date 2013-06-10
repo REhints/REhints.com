@@ -31,12 +31,23 @@
     </header>
     <div class="container">
         <section id="main_content post">
+
             <h1>{{ page.title }}</h1>
 
             {{ content }}
 
             <script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
             <div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="none" data-yashareQuickServices="gplus,facebook,twitter,lj"></div>
+
+            <div id="disqus_thread"></div>
+            <script type="text/javascript">
+                var disqus_shortname = 'rehints';
+                (function() {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
 
         </section>
     </div>
