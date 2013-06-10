@@ -1,10 +1,7 @@
 ---
 layout: default
-title: Projects
+title: Publications
 ---
-
-Here is located the most significant part of my publications ([without blog posts](http://www.welivesecurity.com/author/matrosov/))
-
 ## 2013
 
 ### Conferences:
@@ -64,12 +61,3 @@ Here is located the most significant part of my publications ([without blog post
 
 ### Articles:
 * Rooting about in TDSS, Virus Bulletin [link](http://go.eset.com/us/resources/white-papers/Rooting-about-in-TDSS.pdf)
-
-## 2009
-* Вирус подмены страниц: изменение поведения веб-сервисов без ведома их создателей, RusCrypto [slides](http://www.ruscrypto.ru/netcat_files/File/ruscrypto.2009.016.zip)
-
-## 2008
-* Защита приложений, имеющих промежуточное представление (байт-код), RusCrypto [slides](http://www.ruscrypto.ru/netcat_files/File/ruscrypto.2008.028.zip)
-
-## 2007
-* Обнаружение вредоносных данных в передающей информационной среде, RusCrypto [slides](http://www.ruscrypto.ru/netcat_files/File/ruscrypto.2007.007.zip)
