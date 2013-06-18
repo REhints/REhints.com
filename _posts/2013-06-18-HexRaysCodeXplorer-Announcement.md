@@ -1,9 +1,9 @@
 ---
-title: REcon'2013
+title: Announcement of HexRaysCodeXplorer plugin
 layout: post
 ---
 
-Каждый год конференцию CARO организует одна из антивирусных компаний в разных уголках Европы. Мне уже удалось побывать до этого в Хельсинки [F-secure], Прага [Avast] и Мюнхен [TrendMicro]. А в этом году организатором выступила ESET и местом проведения стал славный город Братислава.
+On [REcon conference](http://recon.cx/2013/schedule/events/15.html) on this week we will be present our plugin for Hex-Rays Decompiler - **HexRaysCodeXplorer**.
 
 {{ excerpt_separator }}
 
