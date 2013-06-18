@@ -3,7 +3,7 @@ title: Announcement of HexRaysCodeXplorer plugin
 layout: post
 ---
 
-On [REcon conference](http://recon.cx/2013/schedule/events/15.html) on this week we will be present our plugin for Hex-Rays Decompiler - **HexRaysCodeXplorer**. We already a long time working with static code analysis complex threats as Stuxnet, Flame, Festi and many [more](http://rehints.com/publications/). One of the problem with analysis this threats it's bad code navigation in Hex-Rays Decompieler. 
+On [REcon conference](http://recon.cx/2013/schedule/events/15.html) on this week we will be present our plugin for Hex-Rays Decompiler - **HexRaysCodeXplorer**. We already a long time working with static code analysis complex threats as Stuxnet, Flame, Festi and many [more](http://rehints.com/publications/). One of the problem with analysis this threats it's bad code navigation in Hex-Rays Decompieler.
 
 {{ excerpt_separator }}
 
@@ -27,10 +27,10 @@ On [REcon conference](http://recon.cx/2013/schedule/events/15.html) on this week
 
 В последний день конференции вечером состоялась вечеринка в доме у одного из основателей ESET. На которой выступил практически весь состав топ менеджмента:
 
-![](/assets/posts{{ page.id }}/1.jpg)
+![](/assets/posts/{{ page.id }}/1.jpg)
 
-![](/assets/posts{{ page.id }}/2.jpg)
+![](/assets/posts/{{ page.id }}/2.jpg)
 
-![](/assets/posts{{ page.id }}/3.jpg)
+![](/assets/posts/{{ page.id }}/3.jpg)
 
 Конференция однозначно удалась по всем фронтам, за что организаторам огромное спасибо ;)
