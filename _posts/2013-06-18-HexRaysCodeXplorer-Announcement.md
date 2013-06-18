@@ -3,7 +3,7 @@ title: Announcement of HexRaysCodeXplorer plugin
 layout: post
 ---
 
-On [REcon conference](http://recon.cx/2013/schedule/events/15.html) on this week we will be present our plugin for Hex-Rays Decompiler - **HexRaysCodeXplorer**.
+On [REcon conference](http://recon.cx/2013/schedule/events/15.html) on this week we will be present our plugin for Hex-Rays Decompiler - **HexRaysCodeXplorer**. We already a long time working with static code analysis complex threats as Stuxnet, Flame, Festi and many [more](http://rehints.com/publications/). One of the problem with analysis this threats it's bad code navigation in Hex-Rays Decompieler. 
 
 {{ excerpt_separator }}
 
