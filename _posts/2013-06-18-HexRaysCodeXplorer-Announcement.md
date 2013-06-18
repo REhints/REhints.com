@@ -22,10 +22,10 @@ And in decompiled code looks like this code:
 
 But Hex-Rays Decompiler not support code navigation for this type of objects reproduced by structures. HexRaysCodeXplorer developed for fixed this problems.
 
-Here is the features list for first release:
-* one
-* two 
-* three 
+**Here is the main features list schedule for first release:**
+* navigation for structures fields in Hex-Rays Decompieler window; 
+* automatic type reconstruction for C++ constructor object;
+* useful interface for working with datatypes and objects;
 
 **HexRaysCodeXplorer** - open source plugin, but before first stable release we not share a source code. But if you want to join for beta testing HexRaysCodeXplorer send email request to **info@rehints.com** with a few words about "Why it's interesting for you?" and we share the binary of plugin.  
 
