@@ -3,11 +3,16 @@ title: Announcement of HexRaysCodeXplorer plugin
 layout: post
 ---
 
-On [REcon conference](http://recon.cx/2013/schedule/events/15.html) on this week we will be present our plugin for Hex-Rays Decompiler - **HexRaysCodeXplorer**. We already a long time working with static code analysis complex threats as Stuxnet, Flame, Festi and many [more](http://rehints.com/publications/). One of the problem with analysis this threats it's bad code navigation in Hex-Rays Decompieler. We use Hex-Rays Decompieler for static analysis big code parts when is possible. This tool really help us to analyse object oriented code. We make emulation for C++ objects with Hex-Rays C-structures representation.   
+On [REcon conference](http://recon.cx/2013/schedule/events/15.html) on this week we will be speaking about Gapz bootkit and presenting our plugin for Hex-Rays Decompiler - **HexRaysCodeXplorer**. We already have been working for a long time with static code analysis of such complex threats as Stuxnet, Flame, Festi and many [more](http://rehints.com/publications/). In the course of the research of Gapz bootkit we faced the problem of position independent code analysis once again. This motivated us for developing a plugin for Hex-Rays decompiler which makes the process of reversing position independent and object oriented code easier. 
 
 {{ excerpt_separator }}
 
-How example strucure which defined a smart pointer type looks like this: 
+One of the approaches to tackle this problem in Hex-rays decompiler so far is to use structures (Local types) to represent objects.
+ ![](/assets/posts{{ page.id }}/local_types.png)
+
+{{ excerpt_separator }}
+
+As an example, here is a structure which describes a smart pointer type: 
 <pre><code>
 typedef struct SMART_PTR
 {
@@ -16,17 +21,23 @@ typedef struct SMART_PTR
 };
 </code></pre>
 
-And in decompiled code looks like this code:
+Which results in the following decompiled code:
 
 ![](/assets/posts{{ page.id }}/SmartPtr.png)
 
-But Hex-Rays Decompiler not support code navigation for this type of objects reproduced by structures. HexRaysCodeXplorer developed for fixed this problems.
+Unfortunately these structures are to be created manually in the course of reversing the code what takes a lot of time. Another thing is that there is no possibility to navigate through the object’s code using this approach in Hex-Rays decompiler. In other words, when you encounter the following expression
 
-**Here is the main features list schedule for first release:**
-* navigation for structures fields in Hex-Rays Decompieler window; 
+![](/assets/posts{{ page.id }}/hook_routiner.png)
+
+It is not possible to go to decompiled code of hook_routine by double clicking on it, since the decompiler doesn’t know its address.
+Hex-Rays plugin architecture allows us to approach the aforementioned difficulties. The decompiler’s SDK provides access to its internal structures and, therefore, leverage its capabilities.
+
+{{ excerpt_separator }}
+
+ **Here are the main features of the plugin which we would like to have in the first release:**
+* navigation for structures fields in Hex-Rays Decompiler window; 
 * automatic type reconstruction for C++ constructor object;
-* useful interface for working with datatypes and objects;
+* useful interface for working with objects & classes;
 
-**HexRaysCodeXplorer** - open source plugin, but before first stable release we not share a source code. But if you want to join for beta testing HexRaysCodeXplorer send email request to **info@rehints.com** with a few words about "Why it's interesting for you?" and we share the binary of plugin.  
-
-If you interested about HexRaysCodeXplorer and have a features request for future releases let us know to **info@rehints.com** with any feedback.
+**HexRaysCodeXplorer** - open source plugin, the source code will be shared after the first stable release. But if you want to join for beta testing HexRaysCodeXplorer send email request to **info@rehints.com** with a few words about "Why it's interesting for you?" and we share the binary of plugin.  
+If you interested in HexRaysCodeXplorer and have features requests for future releases let us know at **info@rehints.com** with any feedback.
