@@ -247,3 +247,12 @@ a {
 .cf {
   zoom:1;
 }
+
+ul.home li h2 {
+  margin-top: -30px;
+}
+
+ul.home li h2 a {
+  color: #B5E853;
+  font-size: 18px;
+}
