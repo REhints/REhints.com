@@ -250,9 +250,16 @@ a {
 
 ul.home li h2 {
   margin-top: -30px;
+  margin-bottom: 0;
 }
 
 ul.home li h2 a {
   color: #B5E853;
   font-size: 18px;
+}
+
+.twitter {
+  display: block;
+  float: right;
+  padding-top: 10px;
 }
