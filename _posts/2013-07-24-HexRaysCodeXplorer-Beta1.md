@@ -11,6 +11,7 @@ Here are the main features of the plugin which we would like to have in the firs
 * useful interface for working with objects & classes;  
 
 {{ excerpt_separator }}
+
 ![](/assets/posts{{ page.id }}/navigation.jpg)
 
 If you want to submit bugs or have ideas about new features let us know at [issues tracker](https://github.com/REhints/HexRaysCodeXplorer/issues) or by email <support@rehints.com>.
