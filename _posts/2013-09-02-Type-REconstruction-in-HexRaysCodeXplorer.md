@@ -3,7 +3,7 @@ title: Type REconstruction in HexRaysCodeXplorer
 layout: post
 ---
 
-In this blog post we would like to account for “Type Reconstruction” feature of HexRaysCodeXplorer plugin, what motivated us for developing it, the basic ideas behind its implementation and how to use it. 
+In this blog post we would like to account for &#0171;Type Reconstruction&#0187; feature of HexRaysCodeXplorer plugin, what motivated us for developing it, the basic ideas behind its implementation and how to use it.
 
 {{ excerpt_separator }}
 
@@ -24,7 +24,7 @@ The same problem concerns analysis of object-oriented code when pointer to the t
 
 ![](/assets/posts{{ page.id }}/oop.png)
 
-We already addressed these issues at [Recon 2013](http://recon.cx/2013/schedule/events/15.html). One of the workarounds for this problem is using the functionality provided by IDA Pro disassembler, namely, “Local Types”. For each instance of position independed code (or object in case of OOP) we can create structure with corresponding layout to ease the analysis:
+We already addressed these issues at [Recon 2013](http://recon.cx/2013/schedule/events/15.html). One of the workarounds for this problem is using the functionality provided by IDA Pro disassembler, namely, &#0171;Local Types&#0187;. For each instance of position independed code (or object in case of OOP) we can create structure with corresponding layout to ease the analysis:
 
 ![](/assets/posts{{ page.id }}/ida_localtypes.png)
 
@@ -34,16 +34,16 @@ Reconstructing Types Using Hex-Rays
 ===================================
 
 And this is how we came up with the idea of developing plugin for Hex-Rays decompiler. The idea is quite simple: automatically build the structure representing instance of position independed code or an object given its pointer. The Hex-Rays was chosen because of the ability to access intermediate representation of the decompiled code what is very useful in tracking which fields of the structure being reconstructed are referenced in the code.
-In the heart of this approach lies ***ctree*** – a special tree-like structure representing the decompiled routine:
+In the heart of this approach lies ***ctree*** &ndash; a special tree-like structure representing the decompiled routine:
 
 ![](/assets/posts{{ page.id }}/ctree.png)
 
 Each node in the structure is represented as ***c_itemt*** structure and refers to either an expression or a statement in terms of the language C. Being able to traverse this tree we can identify the layout of the structure. Here is the list of ***c_itemt*** structures which are helpful for this purpose:
-* ***memptr***, ***memref*** – referencing bytes within a buffer at given offset
-* ***idx*** – referencing an element of  array
-* ***call*** – transferring control to another routine
-* ***asg*** – assigning value to operand
-* ***ptr*** – referencing value pointed to by the pointer
+* ***memptr***, ***memref*** &ndash; referencing bytes within a buffer at given offset
+* ***idx*** &ndash; referencing an element of  array
+* ***call*** &ndash; transferring control to another routine
+* ***asg*** &ndash; assigning value to operand
+* ***ptr*** &ndash; referencing value pointed to by the pointer
 
 Here is the picture for clarification which describes how the reference of DWORD at offset 12 in buffer ***a1*** is indentified
 
@@ -53,7 +53,7 @@ Here is the picture for clarification which describes how the reference of DWORD
 
 ![](/assets/posts{{ page.id }}/assignement.png)
 
-As a result, to be able to reconstruct a type using HexRaysCodeXplorer one needs to select the variable holding pointer to the instance of position independed code or to an object and by right-button mouse click select from the context menu “Reconstruct Type” option:
+As a result, to be able to reconstruct a type using HexRaysCodeXplorer one needs to select the variable holding pointer to the instance of position independed code or to an object and by right-button mouse click select from the context menu &#0171;Reconstruct Type&#0187; option:
 
 ![](/assets/posts{{ page.id }}/selection.png)
 
