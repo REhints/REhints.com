@@ -263,3 +263,7 @@ ul.home li h2 a {
   float: right;
   padding-top: 10px;
 }
+
+.right {
+  float: right;
+}
