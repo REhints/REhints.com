@@ -41,5 +41,6 @@ Part3: Going deeper with complex threats
 - The hell of code with Stuxnet and Flame
 </code></pre>
 
-###Want to see this workshop on your conference? Contact with us: workshop@REhints.com 
+##Want to see this workshop on your conference? 
+##Contact with us: <workshop@REhints.com> 
 
