@@ -10,7 +10,7 @@ The workshop is devoted to analysis of malware created using object oriented pro
 In the workshop the authors will share with participants experience of reverse engineering object-oriented code which they’ve accumulated over the recent years while performing analysis of complex threats.
 
 ###Topics:
-introduction into object-oriented code reverse engineering: calling conventions, compiler transformations, system structures (vftables, RTTI) and etc.
+Introduction into object-oriented code reverse engineering: calling conventions, compiler transformations, system structures (vftables, RTTI) and etc.
 using static code analysis tools for reconstructing complex data types
 automating C++ code reverse engineering using IDA Python and Hex-Rays Decompiler SDK
 methodology of object type reconstruction using Hex-Rays Decompiler extensions (HexRaysCodeXplorer)
@@ -43,4 +43,3 @@ Part3: Going deeper with complex threats
 
 ##Want to see this workshop on your conference? 
 ##Contact with us: <workshop@REhints.com> 
-
