@@ -24,8 +24,7 @@ practical experience of complex threat analysis: Stuxnet, Flamer, Gapz
 ###Requirements:
 a laptop with preinstalled IDA Pro and Hex-Rays Decompiler
 
-
-
+###Details:
 <pre><code>
 Part1: Introduction to advanced static analysis
 - Reversing object-oriented programs
@@ -41,4 +40,6 @@ Part3: Going deeper with complex threats
 - Position-independent code analysis in Gapz
 - The hell of code with Stuxnet and Flame
 </code></pre>
+
+####Want to see this workshop on your conference? Contact with us: workshop@REhints.com 
 
