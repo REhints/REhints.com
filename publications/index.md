@@ -11,6 +11,7 @@ title: Publications
 
 ### Research reports:
 * Mind the Gapz: The most complex bootkit ever analyzed? [pdf](http://www.welivesecurity.com/wp-content/uploads/2013/04/gapz-bootkit-whitepaper.pdf)
+
 ### Workshops:
 * Advanced Threats Reverse Engineering, ZeroNights
 
