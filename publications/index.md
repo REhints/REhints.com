@@ -5,11 +5,14 @@ title: Publications
 ## 2013
 
 ### Conferences:
-* Reconstructing Gapz: Position-Independent Code Analysis Problem, REcon
+* HexRaysCodeXplorer: make object-oriented RE easier, ZeroNights [slides](https://github.com/REhints/Publications/blob/master/Conferences/ZeroNights'2013/ZN_2013_pdf.pdf?raw=true)
+* Reconstructing Gapz: Position-Independent Code Analysis Problem, REcon [slides](https://github.com/REhints/Publications/blob/master/Conferences/RECON'2013/RECON_2013.pdf?raw=true)
 * Advanced Evasion Techniques by Win32/Gapz, CARO [slides](http://www.welivesecurity.com/wp-content/uploads/2013/05/CARO_2013.pdf)
 
 ### Research reports:
 * Mind the Gapz: The most complex bootkit ever analyzed? [pdf](http://www.welivesecurity.com/wp-content/uploads/2013/04/gapz-bootkit-whitepaper.pdf)
+### Workshops:
+* Advanced Threats Reverse Engineering, ZeroNights
 
 ## 2012
 
