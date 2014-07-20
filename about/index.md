@@ -7,7 +7,7 @@ title: About
     <tr>
         <td style="width:390px">
             <h3>Aleksandr Matrosov</h3>
-            <div><img src="/assets/about/amatrosov.jpg" alt="Aleksandr Matrosov"></div>
+            <div><img src="/assets/about/amatrosov.jpg" alt="Alexander Matrosov"></div>
             <div><a target="_blank" href="https://twitter.com/matrosov">@matrosov</a></div>
             <div><a target="_blank" href="http://pgp.mit.edu/pks/lookup?op=get&search=0x2A2D380D4CAD31E1">PGP PUBLIC KEY</a></div>
         </td>

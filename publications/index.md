@@ -3,6 +3,10 @@ layout: default
 title: Publications
 ---
 ## 2013
+* HexRaysCodeXplorer: object oriented RE for fun and profit, H2HC [slides]
+* Bootkits: past, present & future, Virus Bulletin [slides]
+
+## 2013
 
 ### Conferences:
 * HexRaysCodeXplorer: make object-oriented RE easier, ZeroNights [slides](https://github.com/REhints/Publications/blob/master/Conferences/ZeroNights'2013/ZN_2013_pdf.pdf?raw=true)
