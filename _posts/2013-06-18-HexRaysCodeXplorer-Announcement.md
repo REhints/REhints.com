@@ -3,7 +3,7 @@ title: Announcement of HexRaysCodeXplorer plugin
 layout: post
 ---
 
-On [REcon conference](http://recon.cx/2013/schedule/events/15.html) on this week we will be speaking about Gapz bootkit and presenting our plugin for Hex-Rays Decompiler - **HexRaysCodeXplorer**. We already have been working for a long time with static code analysis of such complex threats as Stuxnet, Flame, Festi and many [more](http://rehints.com/publications/). In the course of the research of the [Gapz bootkit](http://www.welivesecurity.com/wp-content/uploads/2013/04/gapz-bootkit-whitepaper.pdf) we faced the problem of position independent code analysis once again. This motivated us for developing a plugin for Hex-Rays decompiler which makes the process of reversing position independent and object oriented code easier. 
+On [REcon conference](http://recon.cx/2013/schedule/events/15.html) on this week we will be speaking about Gapz bootkit and presenting our plugin for Hex-Rays Decompiler - **HexRaysCodeXplorer**. We already have been working for a long time with static code analysis of such complex threats as Stuxnet, Flame, Festi and many [more](http://rehints.com/publications/). In the course of the research of the [Gapz bootkit](http://www.welivesecurity.com/wp-content/uploads/2013/04/gapz-bootkit-whitepaper.pdf) we faced the problem of position independent code analysis once again. This motivated us for developing a plugin for Hex-Rays decompiler which makes the process of reversing position independent and object oriented code easier.
 
 {{ excerpt_separator }}
 
@@ -11,14 +11,15 @@ One of the approaches to tackle this problem in Hex-rays decompiler so far is to
 
 ![](/assets/posts{{ page.id }}/local_types.png)
 
-As an example, here is a structure which describes a smart pointer type: 
-<pre><code>
+As an example, here is a structure which describes a smart pointer type:
+```
 typedef struct SMART_PTR
 {
     void    *pObject;   // pointer to the object
     int     *RefNo;     // reference counter
 };
-</code></pre>
+
+```
 
 Which results in the following decompiled code:
 
@@ -33,9 +34,9 @@ it's not possible to go to decompiled code of ***hook_routine*** by double click
 However, Hex-Rays plugin allows us to approach the aforementioned difficulties. The decompiler's SDK provides access to its internal structures and, therefore, leverage its capabilities.
 
 **Here are the main features of the plugin which we would like to have in the first release:**
-* navigation through virtual function calls in Hex-Rays Decompiler window; 
+* navigation through virtual function calls in Hex-Rays Decompiler window;
 * automatic type reconstruction for C++ objects;
 * useful interface for working with objects & classes;
 
-**HexRaysCodeXplorer** - open source plugin, the source code will be shared after the first stable release. But if you want to join for beta testing HexRaysCodeXplorer send email request to **info@rehints.com** with a few words about "Why it's interesting for you?" and we share the binary of plugin.  
+**HexRaysCodeXplorer** - open source plugin, the source code will be shared after the first stable release. But if you want to join for beta testing HexRaysCodeXplorer send email request to **info@rehints.com** with a few words about "Why it's interesting for you?" and we share the binary of plugin.
 If you interested in HexRaysCodeXplorer and have features requests for future releases let us know at **info@rehints.com** with any feedback.
