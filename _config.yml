@@ -1,7 +1,8 @@
 name: REhints
 description: Sharing reverse engineering knowledge
 url: http://rehints.com
-timezone: Europe/Moscow
+timezone: America/Portland
 future: false
 highlighter: pygments
+markdown: kramdown
 permalink: :year-:month-:day-:title.html
