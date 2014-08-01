@@ -3,7 +3,7 @@ title: HexRaysCodeXplorer v1.2 released! What the next?
 layout: post
 ---
 
-Today we [released](https://github.com/REhints/HexRaysCodeXplorer/releases/tag/1.2) a minor update for HexRaysCodeXplorer (v1.2). This version contains a lot of bug fixes and currently supporting IDA v6.6 and Hex-Rays Decompiler (x86) v2.0. The source code already avalible in [GitHub](https://github.com/REhints/HexRaysCodeXplorer)!
+Today we [released](https://github.com/REhints/HexRaysCodeXplorer/releases/tag/1.2) a minor update for HexRaysCodeXplorer (v1.2). This version contains a lot of bug fixes and currently supporting IDA v6.6 and Hex-Rays Decompiler (x86) v2.0. The source code already avalible on [GitHub](https://github.com/REhints/HexRaysCodeXplorer)!
 
 {{ excerpt_separator }}
 
