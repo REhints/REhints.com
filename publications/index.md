@@ -4,7 +4,7 @@ title: Publications
 ---
 ## 2013
 * HexRaysCodeXplorer: object oriented RE for fun and profit, H2HC [slides]
-* Bootkits: past, present & future, Virus Bulletin [slides]
+* Bootkits: past, present & future, Virus Bulletin [slides](https://github.com/REhints/Publications/blob/master/Conferences/VB%202014/VB2014_slides.pdf?raw=true) [paper](https://www.virusbtn.com/pdf/conference/vb2014/VB2014-RodionovMatrosovHarley.pdf)
 
 ## 2013
 
