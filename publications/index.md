@@ -3,17 +3,20 @@ layout: default
 title: Publications
 ---
 ## 2015
+
 ### Conferences:
 
 * Object Oriented Code RE with CodeXplorer, NorthSec [slides]
 
 ## 2014
+
 ### Conferences:
 
 * HexRaysCodeXplorer: object oriented RE for fun and profit, H2HC [slides](https://github.com/REhints/Publications/blob/master/Conferences/H2HC%202014/CodeXplorer_H2HC.pdf?raw=true)
 * Bootkits: past, present & future, Virus Bulletin [slides](https://github.com/REhints/Publications/blob/master/Conferences/VB%202014/VB2014_slides.pdf?raw=true) [paper](https://www.virusbtn.com/pdf/conference/vb2014/VB2014-RodionovMatrosovHarley.pdf)
 
 ## 2013
+
 ### Conferences:
 
 * HexRaysCodeXplorer: make object-oriented RE easier, ZeroNights [slides](https://github.com/REhints/Publications/blob/master/Conferences/ZeroNights'2013/ZN_2013_pdf.pdf?raw=true)
@@ -29,6 +32,7 @@ title: Publications
 * Advanced Threats Reverse Engineering, ZeroNights
 
 ## 2012
+
 ### Conferences:
 
 * Flamer Analysis: Framework Reconstruction, ZeroNights [slides](http://go.eset.com/us/resources/white-papers/ZN2012_pdf.pdf)
@@ -48,6 +52,7 @@ title: Publications
 * When I’m x64: Bootkit Threat Evolution in 2011, Hakin9 [link](http://hakin9.org/022012-hakin9-magazine-50th-issue/)
 
 ## 2011
+
 ### Conferences:
 
 * Win32/Duqu: involution of Stuxnet, ZeroNights [slides](http://www.slideshare.net/matrosov/win32duqu-involution-of-stuxnet)
@@ -70,6 +75,7 @@ title: Publications
 * TDSS part 3: Bootkit on the other foot, InfoSecInstitute [link](http://resources.infosecinstitute.com/tdss4-part-3/)
 
 ## 2010
+
 ### Conferences:
 
 * 2010: The year of the Exploit, CONFidence [slides](http://data.proidea.org.pl/confidence/8edycja/materialy/prezentacje/JurajMalcho.pdf)
