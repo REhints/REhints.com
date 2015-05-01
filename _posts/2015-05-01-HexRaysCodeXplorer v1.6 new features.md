@@ -1,5 +1,5 @@
 ---
-title: HexRaysCodeXplorer v1.6 new features and support for IDA 64-bit
+title: HexRaysCodeXplorer v1.6! New features and support for IDA 64-bit
 layout: post
 ---
 
