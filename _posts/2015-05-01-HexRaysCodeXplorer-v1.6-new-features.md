@@ -3,7 +3,7 @@ title: HexRaysCodeXplorer v1.6 released! New features and support for IDA 64-bit
 layout: post
 ---
 
-Today we are [realising](https://github.com/REhints/HexRaysCodeXplorer/releases/tag/1.6) an updated version 1.6 of HexRaysCodeXplorer. The new version of the plugin supports latest versions of IDA v6.8 and Hex-rays Decompiler v2.2. In this update we also provide support for IDA versions for 64-bit.
+Today we are [releasing](https://github.com/REhints/HexRaysCodeXplorer/releases/tag/1.6) an updated version 1.6 of HexRaysCodeXplorer. The new version of the plugin supports latest versions of IDA v6.8 and Hex-rays Decompiler v2.2. In this update we also provide support for IDA versions for 64-bit.
 
 {{ excerpt_separator }}
 
