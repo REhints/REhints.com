@@ -6,7 +6,7 @@ title: Publications
 
 ### Conferences:
 
-* Object Oriented Code RE with CodeXplorer, NorthSec [slides]
+* Object Oriented Code RE with CodeXplorer, Nsec [slides](https://github.com/REhints/Publications/raw/master/Conferences/Nsec'2015/nsec_2015.pdf)
 
 ## 2014
 
