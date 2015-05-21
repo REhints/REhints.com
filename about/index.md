@@ -6,7 +6,7 @@ title: About
 <table>
     <tr>
         <td style="width:390px">
-            <h3>Alexander Matrosov</h3>
+            <h3>Alex Matrosov</h3>
             <div><img src="/assets/about/amatrosov.jpg" alt="Alexander Matrosov"></div>
             <br><div><a target="_blank" href="https://twitter.com/matrosov">@matrosov</a></br>
             <br><a href="mailto:am@rehints.com">am@rehints.com</a></br>
