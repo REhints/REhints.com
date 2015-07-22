@@ -12,6 +12,7 @@ title: About
             <br><a href="mailto:am@rehints.com">am@rehints.com</a></br>
             <br><a target="_blank" href="http://pgp.mit.edu/pks/lookup?op=get&amp;search=0x2A2D380D4CAD31E1">PGP PUBLIC KEY</a></div></br>
         </td>
+        <td>
         <td style="width:20px;">&nbsp;</td>
         <td style="width:390px">
             <h3>Eugene Rodionov</h3>
@@ -21,6 +22,7 @@ title: About
             <br><a target="_blank" href="#">PGP PUBLIC KEY</a></div></br>
         </td>
     </tr>
+    <tr><td></td></tr>
     <tr>
         <td style="width:390px">
             <h3>Rodrigo Branco</h3>
