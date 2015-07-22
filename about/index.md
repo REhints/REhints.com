@@ -22,7 +22,9 @@ title: About
             <br><a target="_blank" href="#">PGP PUBLIC KEY</a></div></br>
         </td>
     </tr>
-    <td></td>
+</table>
+
+<table>
     <tr>
         <td style="width:390px">
             <h3>Rodrigo Branco</h3>
@@ -41,3 +43,4 @@ title: About
         </td>
     </tr>
 </table>
+
