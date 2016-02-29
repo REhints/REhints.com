@@ -33,14 +33,6 @@ title: About
             <br><a href="mailto:am@rehints.com">rrb@rehints.com</a></br>
             <br><a target="_blank" href="http://www.kernelhacking.com/rodrigo/docs/public.txt">PGP PUBLIC KEY</a></div></br>
         </td>
-        <td style="width:20px;">&nbsp;</td>
-        <td style="width:390px">
-            <h3>Gabriel Barbosa</h3>
-            <div><img src="/assets/about/gabriel.jpg" alt="Gabriel Barbosa"></div>
-            <br><div><a target="_blank" href="https://twitter.com/gabrielnb">@gabrielnb</a></br>
-            <br><a href="mailto:gnb@rehints.com">gnb@rehints.com</a></br>
-            <br><a target="_blank" href="#">PGP PUBLIC KEY</a></div></br>
-        </td>
     </tr>
 </table>
 
